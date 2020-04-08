@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="Winter Yoon">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>WinterYoon</title>
+
+<style type="text/css">
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background:white;
+    height:100%;
+    margin:0;
+}
+li,p {
+    line-height: 2.0;
+    font-size:0.9em;
+}
+#container {
+    position:absolute;
+    left:50%;
+    margin-left:-450px;
+    width:900px;
+    height:130%;
+    background:#fff;
+}
+aside {
+    float:left;
+    width:300px;    
+    padding:20px 50px;
+    height:100%;
+    background:rgb(216, 216, 216);
+}
+.pf {
+    border-radius:10%;
+    box-shadow:3px 3px 10px 2px #222;
+
+} 
+#detail {
+    position: relative;
+    top:80px;
+}
+#sns
+ {
+    position:relative;
+    top:100px;
+ }
+
+#main {
+    float:right;
+    width:600px;
+    height:100%;
+    padding:20px;
+}
+
+#main > section {
+    width:500px;
+    padding:20px;
+    margin:10px;
+    border-bottom:1px dotted #222;
+}
+
+section > p, section>table {
+    margin-left:50px;
+}
+
+/* 글자스타일 */
+aside h1 {
+    font-size:1.8em;
+    font-variant: small-caps;
+	color : #330099;
+}
+aside h2 {
+    font-size:1.2em;
+}
+#namecard p {
+    font-size:0.9em;
+    color:rgb(99, 99, 99);
+    /* font-style:italic; */
+}
+
+.subtitle {
+    font-size:1.5em;
+    /* padding-left:45px; */
+    line-height:0.9em;
+}
+.subtitle::before {
+    content:"";
+    display:block;
+    background:url("../images/note.png") no-repeat;
+    width:24px;
+    height:24px;
+    float:left;
+    margin:0 15px 0 0;
+}
+section > p {
+    font-size:0.9em;
+}
+
+.label {
+    display:inline-block;
+    width:80px;
+    color:purple;
+    font-weight:bold;
+}
+
+meter {
+    width:200px;
+    margin-right:10px;    
+}
+/* 여기까지 */
+
+	img { max-width : 100%; height : auto}
+	h2 {color : #330099}
+	table {
+		width:70%
+		border:1px solid #222;
+		border-collapse: collapse;
+	}
+
+	thead{
+		background:#eee;
+	}
+
+	th, td {
+		border:1px solid #ccc;
+		padding:5px;
+		font-size:0.8em;
+}
+</style>
+
+ </head>
+ <body>
+  <div id="container">
+<!-- 사이드바 --> 
+<aside>
+	<div id = "namecard">
+		<img src = "earlgreybutter.jpg" alt = "mainimage">
+		<h1>Winter Yoon</h1>
+		<p>I want to be a skillful developer.</p>
+	</div>
+	<div id = "detail">
+		<p>Seoul, Korea</p>
+		<p>duckduck31216@gmail.com</p>
+	</div>
+	<div id = "sns">
+		<!--<h2>SNS</h2>-->
+	</div>
+</aside>
+
+	<div id="main">
+	<!-- 자기소개 -->
+	<section>
+		<h2 class="subtitle"> Who am I?</h2>
+		<p>I am interested in <mark>Computer science</mark>! <br>
+			I have been programming something somewhere in Seoul. 
+		</p>
+	</section>
+
+	<!-- 경험 --> 
+	<section>
+		<h2 class="subtitle"> Experience </h2>
+		<ul>
+			<li> JAVA 
+				<ul>
+					<li>Making website</li>
+					<li>I use JAVA as a main language to solving algorithm problem.</li>
+				</ul>
+			</li>
+			<li>C++
+				<ul>
+					<li>Software Engineering Team Project</li>
+					<li>I did most of university assignment with C++.</li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+
+	<!-- 숙련도 --> 
+	<section>
+		<h2 class="subtitle"> Skills </h2>
+	</section>
+
+	<!-- 학력 --> 
+  <section>
+<h2 class = "subtitle">Education</h2>
+<table>
+<caption>Educational History</caption>
+<thead>
+<tr>
+	<th>school</th>
+	<th>major</th>
+	<th>span</th>
+	<th>state</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>hongik university</td>
+	<td>computer engineering</td>
+	<td>2016.03~2020.02</td>
+	<td>graduate</td>
+</tr>
+<tr>
+	<td>hogwart(I don't want to open highschool name.)</td>
+	<td>natural sciences</td>
+	<td>2013.03~2016.02</td>
+	<td>graduate</td>
+</tr>
+</tbody>
+</table>
+</section> 
+<!--자격증-->
+<section>
+	<h2 class ="subtitle">Certificate</h2>
+<ul>
+	<li>Industrial Engineer Information Processing <br>(by Human Resources Development Service of Korea)</li>
+	<!--<li></li>-->
+</ul>
+</section>
+  </div>
+  </div>
+ </body>
+</html>
